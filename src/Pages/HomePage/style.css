@@ -1,0 +1,436 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Archivo Black", sans-serif;
+
+}
+:root{
+  --mywidth:80%;
+  --mybtncolor:green; 
+}
+.flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+  width: var(--mywidth);
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+header{
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .logo img{
+  width: 25%;
+  align-items: center;
+}
+.navbar .navmenu ul{
+  list-style: none;
+  gap: 2rem;
+  display: flex;
+}
+.navbar .navmenu ul li a{
+  font-weight: 500;
+  text-decoration: none;
+}
+.herosection{
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  background-image: url(../../assets/heroImage.svg);
+
+}
+.herocontainer{
+  height: 70vh;
+  width: var(--mywidth);
+  align-items: center;
+
+}
+.herocontainer h1{
+margin-top: 7rem;
+  font-size: 3rem;
+}
+.herocontainer h2{
+  font-size: 2rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+.herosearch{
+  padding: .5rem;
+  display: inline-block;
+  background-color: white;
+  border-radius: .6rem;
+}
+.herosearch input{
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 40rem;
+}
+
+.herosearch button{
+  background-color:var(--mybtncolor);
+  border: none;
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+  color: white;
+  border-radius: .3rem;
+}
+.herosection .herocontainer p {
+  padding-top: 1rem;
+}
+.herosection .herocontainer p span{
+  font-weight: bold;
+  
+
+}
+.herosection .herocontainer p span a{
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+  text-decoration: none;
+}
+.categories{
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.catcontainer{
+  width: var(--mywidth);
+
+} 
+.catcontainer h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.catcontainer{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-bottom: 2rem;
+}
+.categories .catcontainer .catboxes{
+ 
+  gap: 2rem;
+  
+}
+.categories .catcontainer .catboxes .catbox{
+  width: calc(100%/5) ;
+
+}
+.categories .catcontainer .catboxes .catbox img {
+  margin-top: 2rem;
+  height: 20rem;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.categories .catcontainer .catboxes .catbox h3{
+  margin-top: -4.5rem;
+  color: white;
+  padding: 0 0 0 1rem;
+
+}
+.categories .catcontainer .catboxes .catbox p{
+  color: white;
+  padding: 0 0 0 1rem;
+
+}
+.toprr{
+  background-color: rgb(245, 241, 241);
+  align-items: center;
+  justify-content: center;
+}
+.toprrcontainer{
+  width: var(--mywidth);
+  height: 100vh;
+}
+.toprrcontainer h2{
+  text-align: left;
+  font-size: 2rem;
+  padding-top: 2rem;
+}
+.toprrcontainer .toprrdesc{
+  font-size: 1.5rem;
+}
+.toprrboxes{
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  
+}
+.toprrboxes .toprrboxesleft{
+  width: 50%;
+      flex-direction: column;
+}
+.toprrboxes .toprrboxesright{
+  width: 50%;
+}
+.toprrboxleft img{
+  height: 10rem;
+  border-radius: 0.5rem;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.toprrbox .toprrboxleft{
+  overflow: hidden;
+  border-radius: 0.3rem;
+}
+.toprrbox .toprrboxleft img:hover{
+  transform: scale(1);
+}
+
+.toprrboxesleft .toprrbox {
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111 ,0.2) 0px 9px 29px 0px;
+  gap: 2rem;
+  
+} 
+.toprrboxesright .toprrbox {
+  box-shadow: rgba(100, 100, 111 ,0.2) 0px 9px 29px 0px;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  gap: 2rem;
+  
+}
+.toprrboxright{
+  justify-content: center;
+  flex-direction: column;
+}
+.toprrboxright span{
+  font-style: italic;
+  color: black;
+}
+.toprrboxright h3{
+  color: black;
+  font-weight: bold;
+}
+.toprrboxright p{
+  color: rgb(134, 140, 140);
+}
+.toprrboxright small{
+  color: black;
+}
+.start{
+  background-color: rgb(245, 241, 241);
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+
+}
+.start .startcontainer{
+  height: 60vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)),
+  url(../../assets/banner_bg_desktop.jpg);
+  border-radius: 0.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: var(--mywidth);
+  text-align: left;
+}
+.start .startcontainer p{
+  color: white;
+  padding: 5rem 0 0rem 8rem;
+}
+.start .startcontainer h1{
+  color: white;
+  padding: 1rem 0 0rem 8rem;
+  font-size: 2.5rem;
+
+}
+.start .startcontainer h2{
+  color: white;
+  padding: 0rem 0 0rem 8rem;
+  font-weight: 200;
+
+}
+.start .startcontainer button{
+  
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  border-radius: 0.4rem;
+  border: none;
+  margin: 20px 0px 0px 120px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color:var(--mybtncolor);
+}
+
+.cta{
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.cta .ctacontainer {
+  width: var(--mywidth);
+  align-items: center;
+  gap: 8rem;
+}
+
+.cta .ctacontainer .ctaLeft {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ctaBox {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ctaBox .ctaBoxChild {
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ctaBox .ctaBoxChild h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+}
+
+.ctaBox .ctaBoxChild p {
+  font-weight: 300;
+}
+
+.cta .ctacontainer .ctaRight {
+  width: 45%;
+}
+
+.cta .ctacontainer .ctaRight h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.cta .ctacontainer .ctaRight p {
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.cta .ctacontainer .ctaRight small {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.cta .ctacontainer .ctaRight a {
+  display: inline-block;
+ margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color:var(--mybtncolor);
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 0.3rem;
+}
+.footer{
+  height: 50vh;
+  align-items: center;
+  background-color: bisque;
+  justify-content: center;
+ 
+}
+.footer .footercontainer{
+  gap: 3rem;
+  padding: 3rem 0 0 4rem;
+  display: flex;
+  height: 40vh;
+  width: var(--mywidth);
+   justify-content: center ;
+}
+.footer .footercontainer .link{
+  width: 25%;
+  display: inline-block;
+ 
+ 
+}
+.footer .footercontainer .link ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer .footercontainer .cat{
+  width: 25%;
+  display: inline-block;
+
+ 
+}
+.footer .footercontainer .cat ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer .footercontainer .contact{
+  width: 25%;
+  display: inline-block;
+ 
+ 
+}
+.footer .footercontainer .contact ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer .footercontainer .touch{
+  width: 25%;
+  display: inline-block;
+ 
+ 
+}
+.footer .footercontainer .touch h3 a{
+  font-size: 2rem;
+color: black;
+
+}
+.footer .footercontainer .touch input{
+  margin-top: 1.5rem;
+  border-radius: .3rem;
+  border: none;
+  outline: none;
+font-size: 1rem;
+padding: .5rem 3rem .5rem .5rem;
+}
+.link ul li a{
+  color: black;
+}
+.cat ul li a{
+  color: black;
+}
+.contact ul li a{
+  color: black;
+}
+.link ul li h3{
+  font-size: 1.5rem;
+}
+.cat ul li h3{
+  font-size: 1.5rem;
+}
+.contact ul li h3{
+  font-size: 1.5rem;
+}
+.link ul li a:hover{
+  color: red;
+}
+.cat ul li a:hover{
+  color:red;
+}
+.contact ul li a:hover{
+  color: red;
+}
