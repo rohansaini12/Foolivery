@@ -1,0 +1,76 @@
+.toprr{
+    background-color: rgb(245, 241, 241);
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .toprrcontainer{
+    width: var(--mywidth);
+    height: 100vh;
+  }
+  .toprrcontainer h2{
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .toprrcontainer .toprrdesc{
+    font-size: 1.5rem;
+  }
+  .toprrboxes{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    
+  }
+  .toprrboxes .toprrboxesleft{
+    width: 50%;
+        flex-direction: column;
+  }
+  .toprrboxes .toprrboxesright{
+    width: 50%;
+  }
+  .toprrboxleft img{
+    height: 10rem;
+    border-radius: 0.5rem;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  .toprrbox .toprrboxleft{
+    overflow: hidden;
+    border-radius: 0.3rem;
+  }
+  .toprrbox .toprrboxleft img:hover{
+    transform: scale(1);
+  }
+  
+  .toprrboxesleft .toprrbox {
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111 ,0.2) 0px 9px 29px 0px;
+    gap: 2rem;
+    
+  } 
+  .toprrboxesright .toprrbox {
+    box-shadow: rgba(100, 100, 111 ,0.2) 0px 9px 29px 0px;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    gap: 2rem;
+    
+  }
+  .toprrboxright{
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+  .toprrboxright span{
+    font-style: italic;
+    color: black;
+  }
+  .toprrboxright h3{
+    color: black;
+    font-weight: bold;
+  }
+  .toprrboxright p{
+    color: rgb(134, 140, 140);
+  }
+  .toprrboxright small{
+    color: black;
+  }

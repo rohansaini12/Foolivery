@@ -1,0 +1,45 @@
+.start{
+    background-color: rgb(245, 241, 241);
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+  
+  }
+  .start .startcontainer{
+    height: 60vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.3)),
+    url(../../../assets/banner_bg_desktop.jpg);
+    border-radius: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: var(--mywidth);
+    text-align: left;
+  }
+  .start .startcontainer p{
+    color: white;
+    padding: 5rem 0 0rem 8rem;
+  }
+  .start .startcontainer h1{
+    color: white;
+    padding: 1rem 0 0rem 8rem;
+    font-size: 2.5rem;
+  
+  }
+  .start .startcontainer h2{
+    color: white;
+    padding: 0rem 0 0rem 8rem;
+    font-weight: 200;
+  
+  }
+  .start .startcontainer button{
+    
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    border-radius: 0.4rem;
+    border: none;
+    margin: 20px 0px 0px 120px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    background-color:var(--mybtncolor);
+  }
+  

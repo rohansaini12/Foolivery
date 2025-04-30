@@ -1,0 +1,57 @@
+.herosection{
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    background-image: url(../../../assets/heroImage.svg);
+  
+  }
+  .herocontainer{
+    height: 70vh;
+    width: var(--mywidth);
+    align-items: center;
+  
+  }
+  .herocontainer h1{
+  margin-top: 7rem;
+    font-size: 3rem;
+  }
+  .herocontainer h2{
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+  }
+  .herosearch{
+    padding: .5rem;
+    display: inline-block;
+    background-color: white;
+    border-radius: .6rem;
+  }
+  .herosearch input{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 40rem;
+  }
+  
+  .herosearch button{
+    background-color:var(--mybtncolor);
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    cursor: pointer;
+    color: white;
+    border-radius: .3rem;
+  }
+  .herosection .herocontainer p {
+    padding-top: 1rem;
+  }
+  .herosection .herocontainer p span{
+    font-weight: bold;
+    
+  
+  }
+  .herosection .herocontainer p span a{
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+  }

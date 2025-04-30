@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .About{
+    background-image: url("../../assets/About/aboutbg.jpeg");
+  filter: contrast(40%);
+    position: relative;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+  }
+  .Aboutpage h1{
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    position: absolute;
+margin-top: -20rem;
+    color: white;
+
+  }
+  .Aboutus{
+    background-color: bisque;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftcontent{
+    width: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .leftcontent img{
+   border-radius: 1rem;
+   height: 28rem;
+   width: 22rem;
+   transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  .leftcontent img:hover{
+    transform: scale(1);
+  }
+  .rightcontent{
+    width: 60%;
+    padding-right: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .rightcontent h2{
+    font-size: 2rem;
+    color: red;
+    padding-bottom: 1.5rem;
+
+  }
+  .rightcontent h1{
+    font-size: 3rem;
+   padding-bottom: 1rem;
+  }
+  .rightcontent p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+
+  }
+  .ourseat{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    background: antiquewhite;
+    display:flex;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftseat img{
+    filter: brightness(50%);
+    height: 20rem;
+    border-radius: 0.5rem;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  .leftseat{
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .leftseat img:hover{
+    transform: scale(1);
+  }
+  .leftseat h1{
+    text-align: center;
+   position: absolute;
+    margin-top: -9rem;
+    margin-left: 8rem;
+    color: white;
+  }
+  .leftseat button{
+    margin-left: 10rem;
+    display: block;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: rgb(242, 103, 52);
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    margin-top: -13rem;
+  }
+  .leftseat button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+  }
+  .rightseat img{
+    filter: brightness(50%);
+    height: 20rem;
+    border-radius: 0.5rem;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  .rightseat{
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .rightseat img:hover{
+    transform: scale(1);
+  }
+  .rightseat h1{
+    text-align: center;
+   position: absolute;
+    margin-top: -9rem;
+    margin-left: 8rem;
+    color: white;
+  }
+  .rightseat button{
+    margin-left: 10rem;
+    display: block;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: rgb(242, 103, 52);
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    margin-top: -13rem;
+  }
+  .rightseat button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+  }
+.Tablebook{
+  background-image: url("../../assets/About/Tablebook.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10rem;
+  width: 100%;
+  height: 60vh;
+}
+.Tablebook h1{
+  text-align: center;
+  padding: 7rem;
+  width: 40rem;
+  margin-left: 50rem;
+  position: absolute;
+  margin-top: -8rem;
+  background-color: orangered;
+  font-size: 3rem;
+  color: white;
+}
+.Tablebook button{
+  text-align: center;
+  padding: 1rem;
+  width: 11rem;
+  margin-left: 64rem;
+  border: none;
+  position: absolute;
+ margin-top: 3rem;
+  background-color: rgb(23, 15, 12);
+  font-size: 1.3rem;
+  color: white;
+}
+.Tablebook button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}

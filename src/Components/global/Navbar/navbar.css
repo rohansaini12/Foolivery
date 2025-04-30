@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Archivo Black", sans-serif;
+  
+  }
+  :root{
+    --mywidth:80%;
+    --mybtncolor:green; 
+  }
+  .flex{
+    display: flex;
+  }
+  a{
+    text-decoration: none;
+  }
+  .navbar{
+    width: var(--mywidth);
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header{
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .logo img{
+    width: 25%;
+    align-items: center;
+  }
+  .navbar .navmenu ul{
+    list-style: none;
+    gap: 2rem;
+    display: flex;
+  }
+  .navbar .navmenu ul li a{
+    font-weight: 500;
+    text-decoration: none;
+  }

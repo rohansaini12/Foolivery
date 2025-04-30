@@ -1,0 +1,97 @@
+.footer{
+    height: 50vh;
+    align-items: center;
+    background-color: bisque;
+    justify-content: center;
+   
+  }
+  .footer .footercontainer{
+    gap: 3rem;
+    padding: 3rem 0 0 4rem;
+    display: flex;
+    height: 40vh;
+    width: var(--mywidth);
+     justify-content: center ;
+  }
+  .footer .footercontainer .link{
+    width: 25%;
+    display: inline-block;
+   
+   
+  }
+  .footer .footercontainer .link ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .footercontainer .cat{
+    width: 25%;
+    display: inline-block;
+  
+   
+  }
+  .footer .footercontainer .cat ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .footercontainer .contact{
+    width: 25%;
+    display: inline-block;
+   
+   
+  }
+  .footer .footercontainer .contact ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer .footercontainer .touch{
+    width: 25%;
+    display: inline-block;
+   
+   
+  }
+  .footer .footercontainer .touch h3 a{
+    font-size: 2rem;
+  color: black;
+  
+  }
+  .footer .footercontainer .touch input{
+    margin-top: 1.5rem;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+  font-size: 1rem;
+  padding: .5rem 3rem .5rem .5rem;
+  }
+  .link ul li a{
+    color: black;
+  }
+  .cat ul li a{
+    color: black;
+  }
+  .contact ul li a{
+    color: black;
+  }
+  .link ul li h3{
+    font-size: 1.5rem;
+  }
+  .cat ul li h3{
+    font-size: 1.5rem;
+  }
+  .contact ul li h3{
+    font-size: 1.5rem;
+  }
+  .link ul li a:hover{
+    color: red;
+  }
+  .cat ul li a:hover{
+    color:red;
+  }
+  .contact ul li a:hover{
+    color: red;
+  }
